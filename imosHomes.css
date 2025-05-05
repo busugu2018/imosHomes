@@ -33,14 +33,19 @@ html{
 body{
     padding: min(50px, 7%);
     background-color: rgb(197, 207, 195);
+    margin: 0;
 }
 
 /*HEADER=================================*/
 
 header .imos{
     text-decoration: none;
-    color: White;
+    color: rgb(0, 0, 0);
     padding-top: 10px;
+}
+
+.imos:hover{
+    color: aliceblue;
 }
 
 header nav{
@@ -54,6 +59,7 @@ header nav{
 .nav-links{
     flex: 1;
     text-align: right;
+    color: black;
 }
 
 .nav-links ul li{
@@ -64,12 +70,24 @@ header nav{
 
 .nav-links ul li a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
 }
 
-.nav-links ul li a:hover{
-    color: rgb(70, 94, 103);
+/* .nav-links ul li a:hover{
+    color: rgb(72, 226, 0);
+} */
+
+.fa-instagram:hover{
+    color: rgb(221, 18, 197);
+}
+
+.fa-youtube:hover{
+    color: rgb(253, 53, 53);
+}
+
+.fa-facebook-f:hover{
+    color: rgb(26, 106, 255);
 }
 
 /*Section MAIN=================================*/
@@ -82,52 +100,31 @@ section h1{
     font-size: 250px;
 }
 
-section .gallery{
+.slider{
     position: relative;
     width: 100%;
+    height: 800px;
     overflow: hidden;
 }
-
-section .gallery ul li{
-    list-style: none;
-}
-
-section .gallery img{
-    max-width: 80%;
-    height: auto;
-    /* text-align: justify;
-    border-radius: 10px;
-    padding: 20px;
-    transition: 0.5s;
-    left: calc(50% - 110px);
-    top: 0; */
-}
-
-section .gallery video{
-    max-width: 80%;
-    height: auto;
-}
-
-section .gallery ul li{
-
+.item{
+    position: absolute;
+    width: 800px;
+    height: 700px;
     text-align: justify;
-    border-radius: 10px;
-    padding: 20px;
     transition: 0.5s;
-    left: calc(50% - 110px);
     top: 0;
 }
 
 #next, #prev{
     position: absolute;
-    top: 40%;
+    top: 45%;
     color: rgb(120, 113, 113);
     background-color: transparent;
     border: none;
     font-size: xxx-large;
     font-family: monospace;
     font-weight: bold;
-    left: 50px;
+    left: 40px;
 }
 
 #next{
