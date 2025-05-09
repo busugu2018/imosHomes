@@ -304,7 +304,7 @@ height: 1400px;
 #fifth{
     background-color: rgb(255, 255, 255); 
     padding-top: 50px;
-    height: 1400px;
+    height: 1000px;
 }
      
 #fifth h3{
@@ -348,50 +348,132 @@ height: 1400px;
     margin-bottom: 10px;
 }
 
-#fifth .grid img #twoo{
+#fifth .grid img .twoo{
     width: 90%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*===================================*/
 
 /*Section 6th*/
 
+#sixth{
+    background-color: rgb(206, 191, 169); 
+    padding-top: 50px;
+    height: 900px;
+}
+     
+#sixth h3{
+    font-size: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+    color: black;
+}
+    
+#sixth .grid-container{
+    display: grid;
+    padding: 2em;
+    /* border: 1px solid red; */
+    /*       
+    grid-template-columns: repeat(4, 1fr);
 
+    grid-template-columns: repeat(4, 300px);
 
+    grid-template-columns: repeat(auto-fit, 300px);
+    */      
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    justify-content: center;
+}
+    
+#sixth .grid{
+    width:100%;
+    padding:10px;
+    color: black;
+}
 
+#sixth .grid img{
+    width: 100%;
+    margin-bottom: 20px;
+}
 
+#sixth .grid h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 2px;
+    font-size: 15px;
 
+}
 
+#sixth .grid p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(70, 70, 70);
+    margin-top: 2px;
 
+}
 
+#sixth .grid img #twoo{
+    width: 90%;
+}
 
+/*===================================*/
 
+/*Section seventh*/
 
+#seventh{
+    background-color: rgb(255, 255, 255); 
+    padding-top: 50px;
+    height: 900px;
+}
+     
+#seventh h2{
+    font-size: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+    color: black;
+}
+    
+#seventh .grid-container{
+    display: grid;
+    padding: 2em;
+    /* border: 1px solid red; */
+    /*       
+    grid-template-columns: repeat(4, 1fr);
 
+    grid-template-columns: repeat(4, 300px);
 
+    grid-template-columns: repeat(auto-fit, 300px);
+    */      
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    justify-content: center;
+}
+    
+#seventh .grid{
+    width:100%;
+    padding:10px;
+    color: black;
+}
 
+#seventh .grid img{
+    width: 100%;
+    margin-bottom: 20px;
+}
 
+#seventh .grid h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 2px;
+    font-size: 15px;
 
+}
 
+#seventh .grid p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(70, 70, 70);
+    margin-top: 2px;
 
+}
 
 
 /*===================================*/
