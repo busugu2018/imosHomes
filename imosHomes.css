@@ -41,7 +41,7 @@ body{
 header .imos{
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding-top: 10px;
+    padding-top: 40px;
 }
 
 .imos:hover{
@@ -90,18 +90,37 @@ header nav{
     color: rgb(26, 106, 255);
 }
 
+
+
+.nav-links button{
+    margin-top: 20px;
+    background-color: #eeeeee;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.nav-links button a{
+    text-decoration: none; 
+}
+
 /*Section MAIN=================================*/
 
-section #Main{
+/* section #Main{
     
-}
+}*/
 
 section h1{
     font-size: 270px;
     margin-bottom: 100px;
 }
 
-.slider{
+/*.slider{
     position: relative;
     width: 100%;
     height: 800px;
@@ -133,7 +152,81 @@ section h1{
 #next{
     left: unset;
     right: 50px;
+} */
+
+#first .container{
+    max-width: 1200px;
+    width: 95%;
+
 }
+
+#first .slider-wrapper .image-list{
+    display: grid;
+    gap: 500px;
+    font-size: 0;
+    grid-template-columns: repeat(10, 1fr);
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-bottom: 30px;
+}
+
+#first .slider-wrapper .image-list .image-item{
+    width: 1200px;
+    height: 800px;
+    object-fit: cover;
+}
+
+#first .slider-wrapper .image-list::-webkit-scrollbar{
+    display: none;
+}
+
+#first .container .slider-scrollbar{
+    height: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#first .slider-scrollbar .scrollbar-track{
+    height: 2px;
+    width: 100%;
+    background: white;
+    position: relative;
+    border-radius: 4px;
+}
+
+.slider-scrollbar:hover .scrollbar-track{
+    height: 4px;
+}
+
+#first .slider-scrollbar .scrollbar-thumb{
+    position: absolute;
+    height: 2px;
+    width: 50%;
+    background: rgb(0, 0, 0);
+    border-radius: inherit;
+    cursor: grab;
+}
+
+.slider-scrollbar:hover .scrollbar-track:active{
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+}
+
+#first .slider-scrollbar .scrollbar-thumb::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
+
+
+
+
+
 
 /*===================================*/
 
@@ -188,6 +281,25 @@ section h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#second button{
+    margin-top: 20px;
+    background-color: #eeeeee;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+#second button a{
+    text-decoration: none; 
+}
+
+
+
 /*===================================*/
 
 
@@ -239,7 +351,29 @@ height: 1400px;
 #third .grid h4{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#third button{
+    margin-top: 20px;
+    background-color: #eeeeee;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+#third button a{
+    text-decoration: none; 
+}
  
+/* #third .grid::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
 
 /*===================================*/
 
@@ -294,6 +428,23 @@ height: 1400px;
 
 #fourth .paragraph button{
     margin-top: 20px;
+}
+
+#fourth button{
+    margin-top: 20px;
+    background-color: #eeeeee;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+#fourth button a{
+    text-decoration: none; 
 }
 
 
@@ -474,6 +625,66 @@ height: 1400px;
     margin-top: 2px;
 
 }
+
+
+/*===================================*/
+
+/* Footer */
+
+footer{
+    height: 500px;
+}
+
+footer h3{
+    font-size: 50px;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    margin-right: 1180px;
+}
+
+footer h6{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin-right: 1180px;
+}
+
+footer p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 1180px;
+}
+
+footer button{
+    margin-right: 1180px;
+    margin-top: 20px;
+    background-color: #eeeeee;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+footer button a{
+    text-decoration: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*===================================*/
