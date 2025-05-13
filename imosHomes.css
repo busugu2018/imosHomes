@@ -160,6 +160,38 @@ section h1{
 
 }
 
+.slider-wrapper{
+    position: relative;
+}
+
+.slider-wrapper .slide-button{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    color: white;
+    background: black;   
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 2.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.slider-wrapper .slide-button:hover{
+    background: #444;
+}
+
+.slider-wrapper .slide-button #prev-slide{
+    left: -20px;
+}
+
+.slider-wrapper .slide-button #prev-slide{
+    right: -20px;
+}
+
 #first .slider-wrapper .image-list{
     display: grid;
     gap: 500px;
