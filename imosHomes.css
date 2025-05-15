@@ -156,15 +156,15 @@ section h1{
 
 #first .container{
     max-width: 1200px;
-    width: 95%;
-
+    width: 100%;
+    margin-left: 14.2%;
 }
 
-.slider-wrapper{
+#first .slider-wrapper{
     position: relative;
 }
 
-.slider-wrapper .slide-button{
+#first .slider-wrapper .slide-button{
     position: absolute;
     height: 50px;
     width: 50px;
@@ -176,30 +176,32 @@ section h1{
     border-radius: 50%;
     font-size: 2.2rem;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-200%);
 }
 
 
-.slider-wrapper .slide-button:hover{
+#first .slider-wrapper .slide-button:hover{
     background: #444;
 }
 
-.slider-wrapper .slide-button #prev-slide{
+#first .slider-wrapper .slide-button#prev-slide{
     left: -20px;
+    /* left: -100px; */
 }
 
-.slider-wrapper .slide-button #prev-slide{
+#first .slider-wrapper .slide-button#next-slide{
     right: -20px;
+    /* left: -100px; */
 }
 
 #first .slider-wrapper .image-list{
     display: grid;
-    gap: 500px;
+    gap: 700px; 
     font-size: 0;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(20, 1fr);
     overflow-x: auto;
     scrollbar-width: none;
-    margin-bottom: 30px;
+    margin-bottom: 130px;
 }
 
 #first .slider-wrapper .image-list .image-item{
@@ -225,22 +227,22 @@ section h1{
     background: white;
     position: relative;
     border-radius: 4px;
-}
+} 
 
-.slider-scrollbar:hover .scrollbar-track{
+#first .slider-scrollbar:hover .scrollbar-track{
     height: 4px;
 }
 
 #first .slider-scrollbar .scrollbar-thumb{
     position: absolute;
-    height: 2px;
+    height: 100%;
     width: 50%;
     background: rgb(0, 0, 0);
     border-radius: inherit;
     cursor: grab;
 }
 
-.slider-scrollbar:hover .scrollbar-track:active{
+#first .slider-scrollbar .scrollbar-thumb:active{
     cursor: grabbing;
     height: 8px;
     top: -2px;
