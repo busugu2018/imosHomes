@@ -175,7 +175,7 @@ section h1{
     cursor: pointer;
     border-radius: 50%;
     font-size: 2.2rem;
-    top: 50%;
+    top: 60%;
     transform: translateY(-200%);
 }
 
@@ -340,9 +340,9 @@ section h1{
 /*Section 3rd*/
 
 #third{
-background-color: rgb(255, 255, 255); 
-padding-top: 50px;
-height: 1400px;
+    background-color: rgb(255, 255, 255); 
+    padding-top: 50px;
+    height: 1400px;
 }
  
 #third h3{
@@ -722,3 +722,102 @@ footer button a{
 
 
 /*===================================*/
+
+/* Media Queries */
+@media(max-width: 768px){
+    header nav,
+    /* header nav li, */
+    #first h1,
+    #first .container,
+    #first .container .slider-wrapper,
+    #second h1,
+    #third h1,
+    #fourth h1,
+    #sixth h1,
+    #seventh h1,
+
+    header .imos{
+        position: relative;
+    }
+
+    section #first h1{
+        font-size: clamp(30px, 1vw, 60px);
+    }
+
+    #first .slider-wrapper .slide-button{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        font-size: 2.2rem;
+        top: 73%;
+        transform: translateY(-200%);
+    }
+
+    #first .container{
+        max-width: 400px;
+    } 
+
+    #first .slider-wrapper .slide-button#next-slide{
+        right: -20px;
+        /* left: -100px; */
+    }
+
+    #first .slider-wrapper .image-list .image-item{
+        width: 420px;
+        height: 380px;
+        object-fit: cover;
+    }
+
+    /*Section 2nd*/
+    #second{
+        padding-top: 100px;
+        height: 2000px;
+    }
+
+    /*Section 3rd*/
+    #third{
+        padding-top: 50px;
+        height: 4000px;
+    }
+    /*Section 4th*/
+    #fourth{
+        height: 900px;
+    }
+
+    /*Section 5th*/
+    #fifth{
+        height: 1400px;
+    }
+
+    /*Section 6th*/
+    #sixth{
+        height: 3600px;
+    }   
+    
+    /*Section 7th*/
+    #seventh{
+        height: 2700px;
+    } 
+    
+    footer{
+        height: 500px;
+    } 
+
+    /* #fourth img{
+        padding-bottom: -60px;
+    } */
+
+    /* #fourth .grid-container .paragraph{
+        padding-top: -60px;
+    } */
+
+
+  
+  
+    /* #first h1{
+      margin-top:40px;
+    }
+   */
+
+}
+  
