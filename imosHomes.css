@@ -735,6 +735,28 @@ footer button a{
     #fourth h1,
     #sixth h1,
     #seventh h1,
+    header .imos,
+    section #first h1,
+    #first .slider-wrapper .slide-button,
+    #first .container,
+    #first .slider-wrapper .slide-button#next-slide,
+    #first .slider-wrapper .image-list .image-item,
+    #second,
+    #third,
+    #fourth,
+    #fifth,
+    #sixth,
+    #seventh,
+    
+
+
+
+    /* footer,
+    footer h3,
+    footer h6,
+    footer p,
+    footer button,
+    footer button a, */
 
     header .imos{
         position: relative;
@@ -810,10 +832,26 @@ footer button a{
     /* #fourth .grid-container .paragraph{
         padding-top: -60px;
     } */
+    
+
+    footer h3{
+        margin-right: 0px;
+    }
+    
+    footer h6{
+        margin-right: 0px;
+    }
+    
+    footer p{
+        margin-right: 0px;
+    }
+
+    footer button{
+        margin-right: -0px;
+    }
+  
 
 
-  
-  
     /* #first h1{
       margin-top:40px;
     }
