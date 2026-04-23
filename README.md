@@ -1,5 +1,15 @@
 # Imos Homes – Home Builder Website
 
+![Alt text](a1.png)
+![Alt text](a2.png)
+![Alt text](a3.png)
+![Alt text](a4.png)
+![Alt text](a5.png)
+![Alt text](a6.png)
+![Alt text](a7.png)
+![Alt text](a8.png)
+![Alt text](a9.png)
+
 ## Overview
 
 Imos Homes is a modern, responsive website designed for a home builder to showcase completed projects, highlight services, and attract potential clients. The site focuses on clean design, strong visual presentation, and an intuitive user experience to support lead generation and brand credibility.
